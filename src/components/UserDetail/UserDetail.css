@@ -1,0 +1,20 @@
+  .user-1{
+    display: flex;
+    border-top: 1px solid grey;
+    font-size: 12px;
+ }
+ .user-1 label{
+    width: 100px;
+    margin-left: 20px;
+ }
+ .pass{
+    display: flex;
+    border-top: 1px solid grey;
+    font-size: 12px;
+ }
+ .pass label{
+    width: 100px;
+    margin-left: 20px;
+ } 
+ 
+

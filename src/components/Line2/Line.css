@@ -1,0 +1,13 @@
+.sec-2{
+    font-size: 12px;
+        display: flex;
+        border-top: 1px solid gray;
+        align-items: center;
+        padding: 5px;
+    }
+    .sec-2 label {
+        width: 200px;
+    }
+    .para {
+        margin: 0;
+    }

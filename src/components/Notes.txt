@@ -1,0 +1,14 @@
+
+What is the difference between rendering and mounting in React?
+"Rendering" is any time a function component gets called (or a class-based render method gets called) which returns a set of instructions for creating DOM. "Mounting" is when React "renders" the component for the first time and actually builds the initial DOM from those instructions
+
+useEffect =>is function to handle side effect in component
+
+when component is render the useffect call before mounting  the component and after  mounting the component
+- there two argument in useeffect 1st is function and 2nd is optional array
+ when [] use   when component re-render  ther is only one call is go
+ __________________________________________________________
+** three scenarion when useeffect get call**
+ 1-whenever component re-render that time useeffect get call
+ 2- when we pass the empty array as second argument in useeffect it will call only once when component get r rerende.
+ 3-usedata is dependenci when usedata change that time useeffect call
